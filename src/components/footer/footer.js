@@ -10,7 +10,7 @@ const Footer = () => {
       <footer>
         <hr />
         <p id="Footer">
-        Hello
+        Contact
          <br/>
          &copy; Natural Beauty
          <br/>

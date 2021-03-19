@@ -115,6 +115,11 @@ dist
 # production
 /build
 
+
+#config file
+.config
+.index.js
+
 # misc
 .DS_Store
 .env.local

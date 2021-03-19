@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const passport = require('passport');
 const FacebookStrategy = require('passport-facebook');
-const keys = require('../.configs/.index');
+const keys = require('../.config/.index');
 const { Strategy } = require('passport');
 let user = {};
 

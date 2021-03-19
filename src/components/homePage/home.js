@@ -2,12 +2,14 @@ import React from 'react';
 import Hand from '../images/hand.jpg';
 import Mango from '../images/mango.jpg';
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-
+import Product from '../productCarousel/product';
 
 const Home = () => {
 
 return (
-<Container >
+  <>
+<Container className="home-container">
+  <br/>
 <Row className="app-wrapper">
   <Col md={6} sm={12}>
       <div className="app-image">
@@ -39,6 +41,11 @@ return (
   </Col>
 </Row>
 </Container>
+
+<div>
+<Product/>
+</div>
+</>
 )
 }
 

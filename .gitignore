@@ -118,7 +118,7 @@ dist
 
 #config file
 .config
-# .index.js
+
 
 # misc
 .DS_Store

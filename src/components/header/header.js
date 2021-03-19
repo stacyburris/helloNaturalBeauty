@@ -16,18 +16,18 @@ return(
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
     <NavDropdown title="Quiz" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#quiz">Take the hair quiz</NavDropdown.Item>
+        <NavDropdown.Item href="/quiz">Take the hair quiz</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Products" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">HAIR CARE</NavDropdown.Item>
+        <NavDropdown.Item href="/product">HAIR CARE</NavDropdown.Item>
         <NavDropdown.Divider /> 
-        <NavDropdown.Item href="#action/3.2">the starter set</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">shampoo + conditioner</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">purple shampoo</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">leave-in</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">hair mask</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">hair serum</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">hair mist</NavDropdown.Item>
+        <NavDropdown.Item href="/product">the starter set</NavDropdown.Item>
+        <NavDropdown.Item href="/product">shampoo + conditioner</NavDropdown.Item>
+        <NavDropdown.Item href="/product">purple shampoo</NavDropdown.Item>
+        <NavDropdown.Item href="/product">leave-in</NavDropdown.Item>
+        <NavDropdown.Item href="/product">hair mask</NavDropdown.Item>
+        <NavDropdown.Item href="/product">hair serum</NavDropdown.Item>
+        <NavDropdown.Item href="/product">hair mist</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Reviews" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">reviews</NavDropdown.Item>
